@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reg">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fName"
+        android:hint="@string/first_name"
+        android:padding="10dp"
+        android:inputType=""
+        android:autofillHints="" tools:targetApi="o"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lName"
+        android:hint="@string/last_name"
+         android:layout_below="@+id/fName"
+        android:inputType=""
+        android:importantForAutofill="no" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EnterEmail"
+        android:hint="Enter Email"
+        android:layout_below="@+id/lName"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwd"
+        android:hint="Password"
+        android:layout_below="@+id/EnterEmail"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cPasswd"
+        android:hint="@string/Confirm_Password"
+        android:layout_below="@+id/passwd"
+
+        android:inputType=""
+        android:importantForAutofill="no" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:padding="10dp"
+        android:hint="@string/submit"
+        android:layout_below="@+id/cPasswd"
+        />
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="*******"
+        android:textSize="26sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/title"
+        android:hint="Enter Here"
+        android:id="@+id/input"
+        android:padding="10dp"
+        android:inputType="" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/input"
+        android:layout_marginTop="7dp"
+        android:orientation="horizontal"
+        android:id="@+id/rela"
+        >
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="clear"
+
+            />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@id/clear"
+            android:text="Add"
+            />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Calculator"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/rela"
+        android:id="@+id/openCalculator"/>
+
+    <TextView
+        android:id="@+id/welcom"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/openCalculator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Welcome to My App"
+        android:textColor="#bab2b2"
+        android:textSize="1000sp" />
+
+
+</RelativeLayout>

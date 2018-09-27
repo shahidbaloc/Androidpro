@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="9dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="110dp"
+        android:id="@+id/logo"
+        android:src="@drawable/chelsea"
+
+        />
+
+
+
+    <EditText android:id="@+id/inputEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/inputPasswd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/inputEmail"
+        />
+
+    <Button android:id="@+id/logini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputPasswd"
+        android:onClick="logini"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10px"
+        android:text="Login"
+        tools:ignore="OnClick" />
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel"
+        android:layout_toRightOf="@id/logini"
+        android:layout_alignTop="@id/logini"
+        android:text="Cancel" />
+
+    <TextView
+        android:id="@+id/fGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="For get password!"
+        android:layout_toRightOf="@+id/cancel"
+        android:layout_alignTop="@+id/cancel"
+
+
+        />
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:layout_alignParentBottom="true"
+        android:text="Register new Account"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
