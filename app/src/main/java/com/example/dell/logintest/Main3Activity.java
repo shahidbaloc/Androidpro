@@ -60,6 +60,7 @@ public class Main3Activity extends AppCompatActivity {
                     return;
                 }
 
+
                 if(titleTextView !=null){
                     titleTextView.setText("");
                 }

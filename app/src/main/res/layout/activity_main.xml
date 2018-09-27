@@ -47,6 +47,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/cancel"
         android:layout_toRightOf="@id/logini"
+
         android:layout_alignTop="@id/logini"
         android:text="Cancel" />
 

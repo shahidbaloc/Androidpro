@@ -17,6 +17,7 @@ public class CalculatorActivity extends AppCompatActivity {
     // Previous operator: '+', '-', '*', '/', '=' or ' ' (no operator)
     private char lastOperator = ' ';
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -44,7 +44,6 @@
         android:id="@+id/cPasswd"
         android:hint="@string/Confirm_Password"
         android:layout_below="@+id/passwd"
-
         android:inputType=""
         android:importantForAutofill="no" />
     <Button

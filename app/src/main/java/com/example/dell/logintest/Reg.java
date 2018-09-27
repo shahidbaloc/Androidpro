@@ -16,6 +16,7 @@ public class Reg extends AppCompatActivity {
 
         Button btn = (Button) findViewById(R.id.submit);
 
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

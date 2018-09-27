@@ -31,6 +31,8 @@ public class MainActivity extends  AppCompatActivity implements View.OnClickList
             email= findViewById(R.id.inputEmail);
 
 
+
+
             logiinButton.setOnClickListener(this);
             registerButton.setOnClickListener(this);
             cancelButton.setOnClickListener(this);
