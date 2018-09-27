@@ -75,6 +75,7 @@
         android:layout_below="@+id/openCalculator"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
+        
         android:text="Welcome to My App"
         android:textColor="#bab2b2"
         android:textSize="1000sp" />
