@@ -9,6 +9,10 @@
     android:padding="16dp"
     tools:context=".Main3Activity">
 
+    <!--this textView is containing stare(*****) sing
+      when text type in below edithtext feild then
+      Add butten pressed then this text show in
+       this textview-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,6 +21,7 @@
         android:textSize="26sp"
         />
 
+    <!--This edittext feild when user enter text for add -->
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,15 +33,20 @@
         android:inputType="" />
 
 
+    <!--in this  RelativeLayout we have two buttons
+         -Clear Button the text from edittext feild and textview
+         -Add button is add the text from edittext feild and textview
+    -->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/input"
         android:layout_marginTop="7dp"
+        android:gravity="center"
         android:orientation="horizontal"
         android:id="@+id/rela"
         >
-
+      <!--Clear Button -->
         <Button
             android:id="@+id/clear"
             android:layout_width="170dp"
@@ -46,7 +56,7 @@
             android:text="clear"
 
             />
-
+        <!--ADD Button -->
         <Button
             android:id="@+id/add"
             android:layout_width="170dp"
@@ -59,27 +69,25 @@
 
     </RelativeLayout>
 
-
+    <!--Button is for Calculator -->
     <Button
+        android:id="@+id/openCalculator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Open Calculator"
-        android:layout_marginLeft="100dp"
         android:layout_below="@+id/rela"
-
-        android:id="@+id/openCalculator"/>
-
-    <TextView
-        android:id="@+id/welcom"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_below="@+id/openCalculator"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="21dp"
+        android:text="Open Calculator" />
 
-        android:text="Welcome to My App"
-        android:textColor="#bab2b2"
-        android:textSize="1000sp" />
-
+      <!--for welcome note  -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To My App"
+        android:layout_marginTop="21dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/openCalculator"
+        />
 
 </RelativeLayout>

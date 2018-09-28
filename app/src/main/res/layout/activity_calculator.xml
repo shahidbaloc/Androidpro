@@ -7,6 +7,12 @@
     android:padding="9dp"
     tools:context="com.example.dell.logintest.CalculatorActivity">
 
+    <!--CalculatorActivity
+       -Textview
+       -Buttons
+     -->
+
+
     <TextView
         android:id="@+id/txtResultId"
         android:layout_width="match_parent"

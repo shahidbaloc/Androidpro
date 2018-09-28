@@ -6,23 +6,28 @@
     android:layout_height="match_parent"
     android:padding="9dp"
     tools:context=".MainActivity">
-
+    <!-- this is the logo image
+         -given an id and src for the image(logo)
+         useing layout_centerHorizontal for the logo in center
+     -->
     <ImageView
+        android:id="@+id/logo"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
         android:layout_marginLeft="110dp"
-        android:id="@+id/logo"
-        android:src="@drawable/chelsea"
+        android:src="@drawable/chelsea" />
 
-        />
-
-
+     <!--this edithtext is use for Email -->
 
     <EditText android:id="@+id/inputEmail"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/logo"
         android:hint="Email"/>
+
+    <!--this edithtext is use for password -->
 
     <EditText
         android:id="@+id/inputPasswd"
@@ -32,7 +37,7 @@
         android:inputType="textPassword"
         android:layout_below="@+id/inputEmail"
         />
-
+    <!--this button is use for Login -->
     <Button android:id="@+id/logini"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,15 +47,14 @@
         android:layout_marginRight="10px"
         android:text="Login"
         tools:ignore="OnClick" />
-
+    <!--this button is use for cancle for the activity  -->
     <Button android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/cancel"
         android:layout_toRightOf="@id/logini"
-
         android:layout_alignTop="@id/logini"
         android:text="Cancel" />
-
+    <!--this textview is use for forget password -->
     <TextView
         android:id="@+id/fGet"
         android:layout_width="match_parent"
@@ -62,7 +66,7 @@
 
 
         />
-
+    <!--this button is use for creating new account -->
     <Button android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/register"
