@@ -43,6 +43,7 @@ public class MainActivity extends  AppCompatActivity implements View.OnClickList
 
             switch (view.getId()){
 
+
                 case R.id.logini:
                    if(email.getText().toString().equals("shahid")&& pwd.getText().toString().equals("abcdef")) {
                        Intent into = new Intent(MainActivity.this, Main3Activity.class);

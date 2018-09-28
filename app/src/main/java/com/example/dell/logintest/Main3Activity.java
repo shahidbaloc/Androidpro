@@ -61,6 +61,7 @@ public class Main3Activity extends AppCompatActivity {
                 }
 
 
+
                 if(titleTextView !=null){
                     titleTextView.setText("");
                 }

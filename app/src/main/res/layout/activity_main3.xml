@@ -69,6 +69,7 @@
 
     </RelativeLayout>
 
+
     <!--Button is for Calculator -->
     <Button
         android:id="@+id/openCalculator"

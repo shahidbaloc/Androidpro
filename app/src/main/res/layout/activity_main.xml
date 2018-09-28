@@ -67,6 +67,7 @@
 
         />
     <!--this button is use for creating new account -->
+
     <Button android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/register"

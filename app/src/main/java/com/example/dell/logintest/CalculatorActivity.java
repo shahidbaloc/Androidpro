@@ -18,6 +18,7 @@ public class CalculatorActivity extends AppCompatActivity {
     private char lastOperator = ' ';
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
